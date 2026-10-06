@@ -15,4 +15,10 @@ public class Dosen extends Pegawai {
         info += this.getInfo();
         return info;
     }
+    public Dosen(String nip, String nama, double gaji, String nidn) {
+        this.nip = nip;
+        this.nama = nama;
+        this.gaji = gaji;
+        this.nidn = nidn;
+    }
 }
