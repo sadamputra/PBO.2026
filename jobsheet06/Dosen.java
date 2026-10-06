@@ -3,9 +3,10 @@ package jobsheet06;
 public class Dosen extends Pegawai {
     public String nidn;
     
-    public Dosen() {
-        System.out.println("Objek dari class Dosen dibuat");
-    }
+    //public Dosen() {
+    //    System.out.println("Objek dari class Dosen dibuat");
+    // }
+
     public String getInfo() {
         return "NIDN : " + this.nidn + "\n";
     }
@@ -16,9 +17,9 @@ public class Dosen extends Pegawai {
         return info;
     }
     public Dosen(String nip, String nama, double gaji, String nidn) {
-        super.nip = nip;
-        super.nama = nama;
-        super.gaji = gaji;
+        super(nip, nama, gaji);
         this.nidn = nidn;
+       
+
     }
 }
