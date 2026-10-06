@@ -16,9 +16,9 @@ public class Dosen extends Pegawai {
         return info;
     }
     public Dosen(String nip, String nama, double gaji, String nidn) {
-        this.nip = nip;
-        this.nama = nama;
-        this.gaji = gaji;
+        super.nip = nip;
+        super.nama = nama;
+        super.gaji = gaji;
         this.nidn = nidn;
     }
 }
